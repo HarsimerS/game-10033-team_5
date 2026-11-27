@@ -8,7 +8,7 @@ namespace MohawkGame2D
     public class Game
     {
         // Spawn position of the player once game starts
-        Player player = new Player(new Vector2(400, 400));
+        Player player = new Player(new Vector2(320, 180));
 
         public void Setup()
         {
