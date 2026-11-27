@@ -15,7 +15,6 @@ namespace MohawkGame2D
         public float grav_accel = 900f; // How fast the player falls in the air
         public float jump_force = 350f;
         public float ground_y = 300f; // Temporary floor until collision is added
-
         public Vector2 vel = new Vector2(0f, 0f); // The current velocity of the player
 
         public void Setup()
