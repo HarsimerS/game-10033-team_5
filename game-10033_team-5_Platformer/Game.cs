@@ -7,14 +7,20 @@ namespace MohawkGame2D
 {
     public class Game
     {
+        // Spawn position of the player once game starts
+        Player player = new Player(new Vector2(400, 400));
+
         public void Setup()
         {
-
+            Window.SetSize(640, 360);
+            Window.SetTitle("Platformer");
+            player.Setup();
         }
 
         public void Update()
         {
-
+            Window.ClearBackground(Color.Black);
+            player.Update(Time.DeltaTime);
         }
     }
 
